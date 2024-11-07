@@ -3,13 +3,20 @@ import "./../../styles/index.css";
 
 const navBarItems = ['About', 'Works', 'Contact'];
 
-export const HeroSection = () => {
+export const HeroSection = (props) => {
     return (
         <section className="p-5 mb-1 bg-body-tertiary rounded-4 hero-slider">
             <div className="container-fluid py-5">
-                <h1 className="display-5 fw-bold .fs-1">This is a Pineaple</h1>
-                <p className="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
-                <button className="btn btn-primary btn-lg" type="button">Example button</button>
+                <div className="row">
+                <div className="col-sm-4 col-md-9 col-lg-10">
+                    <h1>{props.mainTitle}</h1>
+                    </div>
+                </div>
+                <div className="row">
+                <div className="col-xs-4 col-md-9 col-lg-10">
+                    <p>{props.mainDescription}</p>
+                </div>
+                </div>
             </div>
         </section>
     )
