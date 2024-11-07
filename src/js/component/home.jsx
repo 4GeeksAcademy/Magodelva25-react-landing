@@ -13,7 +13,7 @@ const Home = () => {
 	return (
 		<>
 			<NavBar 
-				pageName="Piña" firstLink="About" secondLink="Work" lastLink="Contact" 
+				pageName="React" firstLink="About" secondLink="Work" lastLink="Contact" 
 			/>
 			
 			<HeroSection 
