@@ -1,3 +1,39 @@
+.body {
+ font-family: 'Roboto', sans-serif;
+}
+
+.hero-slider {
+    background-image: url(https://cdn.pixabay.com/photo/2023/07/18/07/17/pineapple-8134236_1280.jpg);
+
+    height: 100vh;
+    max-height: 712px;
+    margin-left: 30px;
+    margin-right:30px;
+
+    }
+
+.bento-container {
+
+    padding: 1.8rem;
+}
+.bento-item {
+    
+            height: 200px;
+            border-radius: 15px;
+            display: flex;
+            align-items: start;
+            font-weight: bold;
+            color: white;
+            transition: transform 0.3s ease;
+        }
+
+        .bento-item:hover {
+            transform: scale(1.02);
+        }
+
+        .bento-tall {
+            height: 422px;
+        }
 
 /* 
 
